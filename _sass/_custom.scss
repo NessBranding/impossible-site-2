@@ -1,0 +1,734 @@
+
+//Look for notes throughout this stylesheet.  Styles are organized by the pages & sections they corrispond to on the site//
+
+//---------------------------------------------------------------------------------------------------------------------------//
+
+
+//GLobal styles for the entier site//
+
+.row{
+    overflow: hidden;
+}
+
+a{
+    color: #ff0000;
+    &:hover{
+        color: #ff0000;
+        text-decoration: none;
+    }
+    
+    &:focus{
+        color: none;
+    }
+}
+
+.btn{
+    white-space: normal; 
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+footer{
+    background: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px #ffffff solid;
+    
+    
+    
+    .footer{
+        p{
+            color: #ffffff;
+            font-size: 16px;
+           
+        }
+        
+        a,
+        a:focus{
+            color: #ffffff;
+            text-decoration: none;
+            outline: none;
+            
+            &:hover{
+                color: rgba(255,255,255,.7);
+            }
+        }
+        
+        div>div{
+            margin-top: 5px;
+        }
+        
+        .follow-us{
+           padding-left: 50px;
+        }
+        
+        
+    }
+
+  
+}
+
+//head section of personal training page, training page, and training center page.
+.head{
+    
+    a{
+        border-radius: 20px;
+        border-width: 5px;
+    }
+              
+        background:url('../img/BackgroundImg/Black-Court-Background.jpg') no-repeat center top fixed;
+            -webkit-background-size: 120%;
+            -moz-background-size: 120%;
+            background-size:120%;
+            -o-background-size: 120%; 
+
+        
+        @media screen and(min-width: 768px){
+        
+            -webkit-background-size: 140%;
+            -moz-background-size: 140%;
+            background-size: 140%;
+            -o-background-size: 140%;   
+        }
+        
+        @media screen and (min-width: 992px){
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;   
+        }
+    
+            padding-top: 100px;
+            padding-bottom: 50px;
+
+            @media screen and(min-width:576px){
+                padding-top: 200px;
+                padding-bottom: 150px;
+            }
+            @media screen and(min-width:768px){
+                    padding-bottom: 200px;
+                }
+            @media screen and(min-width:992px){
+
+            }
+        
+        h1{
+            
+            font-size: 40px;
+            font-weight: 700;
+            color: #ffffff;
+           
+            @media screen and (min-width: 768px){
+                font-size: 70px;
+            }
+        }
+            p{
+                text-transform: uppercase;
+                font-family: 'Orbitron', sans-serif;
+                font-weight: 400;
+                letter-spacing: 3px;
+                color: #ffffff;
+                 @media screen and(min-width:768px){
+
+                    font-size:24px;
+                }
+            }
+        
+        }
+
+.navbar-brand{
+    
+    
+    a{
+        color: #ffffff;
+           
+        .FB-IG{
+            width: 30px;
+            height: 30px;
+            background: #ff0000;
+            margin: 10px;
+            border-radius: 100%;
+
+        }
+        
+        &:hover{
+            .FB-IG{
+                background: rgba(255,0,0,.7);
+            }
+        }
+    }
+    
+}
+
+
+/////////////////////////
+//End globall CSS
+////////////////////////
+
+//HOME PAGE
+.home-page{
+    
+        
+        p{
+                font-family: 'Orbitron', sans-serif;
+                font-weight: 400;
+                letter-spacing: 3px;
+                color: #ffffff;
+            }
+    
+        a{
+            border-radius: 100px;
+        }
+    
+    .head-logo-section{
+        background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('../img/BackgroundImg/AdobeStock_60249457_Preview.jpeg') no-repeat center top fixed;
+        -webkit-background-size: 150%;
+        -moz-background-size: 150%;
+        background-size:150%;
+        -o-background-size: 150%; 
+
+         @media screen and(min-width: 576px){
+        
+            -webkit-background-size: 140%;
+            -moz-background-size: 140%;
+            background-size: 140%;
+            -o-background-size: 140%;   
+        }
+        
+         @media screen and(min-width: 768px){
+        background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('../img/BackgroundImg/AdobeStock_60249457_Preview.jpeg') no-repeat center center fixed;
+            -webkit-background-size: 100%;
+            -moz-background-size: 100%;
+            background-size: cover;
+            -o-background-size: 100%;   
+        }
+        
+        
+        h2{
+            @media screen and(min-width:576px){
+                font-size: 50px;
+            }
+        }
+        
+        h3{
+            @media screen and(min-width:576px){
+                font-size: 40px;
+                font-weight: 400;
+            }
+        }
+        
+        p{
+            @media screen and(min-width:576px){
+                font-size: 20px;
+            }
+        }
+        
+        img{
+            width: 150px;
+            
+            @media screen and (min-width:576px){
+                width: 100px;
+             }
+        }
+     
+
+        
+          a{
+                  
+            @media screen and (min-width:768px){
+                font-size: 16px;
+                letter-spacing: 20px;
+                }
+            }
+
+    }
+    
+    .training-snippet{
+
+         
+        img{
+            width: 300px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+
+        }
+        
+        
+       
+        
+        background: #990000;
+       
+          @media screen and(min-width: 768px){
+                background:linear-gradient(rgba(72,72,72,.9),rgba(72,72,72,.9)),url('../img/BackgroundImg/AdobeStock_66155005.jpeg') no-repeat center top fixed;
+                -webkit-background-size: 120%;
+                -moz-background-size: 120%;
+                background-size: 120%;
+                -o-background-size: 120%;  
+              
+              h1{
+                  font-size: 40px;
+              }
+              
+              h2{
+                  font-size: 30px;
+              }
+            }
+        
+        @media screen and(min-width: 992px){
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                background-size: cover;
+                -o-background-size: cover; 
+            h1{
+                font-size: 50px;
+            }
+            
+            h2{
+                font-size: 40px;
+            }
+        }
+    }
+    
+    .quote-1,
+    .quote-2{
+        
+        background: #151515;
+        
+        p{
+            font-size: 24px;
+        }
+
+    }
+    
+ 
+    
+    .camps-events-snippet{
+        background: #e4e4e4;
+        
+          @media screen and(min-width: 768px){
+                background:linear-gradient(rgba(228,228,228,.9),rgba(228,228,228,.9)),url('../img/BackgroundImg/training background.jpeg') no-repeat center center fixed;
+                -webkit-background-size: 140%;
+                -moz-background-size: 140%;
+                background-size: 140%;
+                -o-background-size: 140%;  
+            }
+        
+        h2,
+        p{
+            color: #000000;
+        }
+    }
+    
+    .about-snippet{
+        background: #e4e4e4;
+        p,
+        h2,
+        h4{
+            color: #000000;
+            @media screen and(min-width:768px){
+                color: #ffffff;
+            }
+        }
+        
+          @media screen and(min-width: 768px){
+                background:linear-gradient(rgba(63,63,63,.8),rgba(63,63,63,.8)),url('../img/BackgroundImg/gym.jpeg') no-repeat center bottom fixed;
+                -webkit-background-size: 120%;
+                -moz-background-size: 120%;
+                background-size: 120%;
+                -o-background-size: 120%;  
+            }
+      
+        img{
+            width: 300px;
+        }
+        
+        hr{
+            border: 2px solid #000000;
+            max-width: 300px;
+            
+            @media screen and(min-width:768px){
+                border: 2px solid #ffffff;
+                
+            }
+            
+        }
+    }
+    
+    @media screen and(min-width: 992px){
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover; 
+        }
+}
+
+//About Page
+.about-page{
+    
+    .head{
+        background:linear-gradient(rgba(63,63,63,.8),rgba(63,63,63,.8)),url('../img/BackgroundImg/gym.jpeg') no-repeat center top fixed;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size:120%;
+        -o-background-size: 100%; 
+        
+        @media screen and(min-width:576px){
+            -webkit-background-size: 120%;
+            -moz-background-size: 120%;
+            background-size:130%;
+            -o-background-size: 120%;
+        }
+        
+        @media screen and(min-width:768px){
+             background:linear-gradient(rgba(63,63,63,.8),rgba(63,63,63,.8)),url('../img/BackgroundImg/gym.jpeg') no-repeat center bottom fixed;
+            -webkit-background-size: 140%;
+            -moz-background-size: 140%;
+            background-size:140%;
+            -o-background-size: 140%;
+        }
+        
+        @media screen and (min-width:1200px){
+       
+            -webkit-background-size: 100%;
+            -moz-background-size: 100%;
+            background-size:100%;
+            -o-background-size: 100%; 
+        }
+    }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p{
+            color: #ffffff;
+        }
+        
+        hr{
+            border-color: #ffffff;
+        }
+    
+    .who-we-are{
+
+        img{
+            width: 200px;
+            display: inline-block;
+        }
+    }
+    
+    .location{
+
+        img{
+            border-radius: 10px;
+            width: 500px;
+        }
+        
+        div:nth-of-type(3){
+           img{
+                width: 400px;
+            }  
+        }
+    }
+    
+    .trainers{
+        hr{
+            max-width: 300px;
+        }
+        
+        img{
+            width: 400px;
+            border-radius: 10px;
+        }
+        
+    }
+}
+
+//Events Page
+.events-page{
+
+    .events-description{
+        background-color:  #F5F5F5;  
+        
+        h1{
+            color: #000000;
+        }
+        
+        p{
+            font-size: 18px;
+        }
+    }
+   
+    
+    .camps{
+         
+        img{
+            width: 400px;
+            border-radius: 20px;
+        }
+        
+        
+        .camp-1{
+            background: #D3D3D3;
+            
+            h2,
+            h5,
+            p{
+                color: #000000;
+            }
+        }
+        
+        .camp-2{
+            background-color: #e5e6e7;
+            
+            h2,
+            h5,
+            p{
+                color: #000000;
+            }
+        }
+        
+    }
+    
+    .host-camp{
+        background-color: #3b3e42;
+        
+        h2,
+        p{
+            color: #ffffff;
+        }
+        
+    }
+}
+
+//Training Center
+.training-membership-page{
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p{
+        color: #f0f0f0;
+    }
+    
+    img{
+        width: 200px;
+    }
+    
+    .head{
+        padding-bottom: 0px;
+        
+        @media screen and(min-width:576px){
+            padding-top: 200px;
+            padding-bottom: 100px;
+        }
+        
+        a{
+            font-size: 14px;
+            border-radius: 20px;
+            border: 5px solid #ffffff;
+            @media screen and (min-width:768px){
+                
+                }
+        }   
+    }
+    
+    .how-it-works{
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p{
+            color: #000000;
+        }
+        
+        hr{
+            border:1px solid #000000;
+            max-width: 200px;
+        }
+    }
+    .membership-options{
+  
+        
+        
+            ul{
+                padding-left: 20px;
+                li{
+                    color: #f0f0f0;
+                    font-size: 26px;
+                    padding: 0 0 20px 10px;
+                }
+
+            }
+        
+        hr{
+            border: 2px solid #ffffff;
+            max-width: 300px;
+        }
+
+        .complete-player-membership{
+            
+            background: #000000;
+            
+            @media screen and(min-width:768px){
+                 background:linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('../img/BackgroundImg/Program%203.jpeg') no-repeat center top fixed;
+                -webkit-background-size: 120%;
+                -moz-background-size: 120%;
+                background-size:120%;
+                -o-background-size: 120%; 
+            }
+            
+
+        
+        } 
+    
+        
+        .kids-program{
+            
+            background: rgba(40,40,40,1);
+            
+            @media screen and(min-width:768px){
+                background:linear-gradient(rgba(40,40,40,.9), rgba(40,40,40,.9)), url('../img/BackgroundImg/Program%201.jpeg') no-repeat center top fixed;
+                -webkit-background-size: 120%;
+                -moz-background-size: 120%;
+                background-size:120%;
+                -o-background-size: 120%;
+            }
+            
+            
+            
+            img{
+                width: 150px;
+                margin-bottom: 20px; 
+            }
+        
+        
+        }
+        
+        .passes{
+            background: rgba(80,80,80,1);
+            
+            @media screen and(min-width: 768px){
+                
+                          
+            background:linear-gradient(rgba(80,80,80,.8), rgba(80,80,80,.8)), url('../img/BackgroundImg/Program%202.jpeg') no-repeat center top fixed;
+            -webkit-background-size: 120%;
+            -moz-background-size: 120%;
+            background-size:120%;
+            -o-background-size: 120%;  
+            }
+
+        } 
+        
+    
+    }
+    
+
+}
+
+.personal-training-page{
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p{
+        color: #f0f0f0;
+    } 
+    
+    hr{
+        border: 2px solid #ffffff;
+        max-width: 300px;
+    }
+    
+    .pt-info{
+        background:linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('../img/BackgroundImg/Program%204.jpeg') no-repeat center top fixed;
+            -webkit-background-size: 120%;
+            -moz-background-size: 120%;
+            background-size:120%;
+            -o-background-size: 120%;
+        
+        img{
+            width: 300px;
+        }
+    }
+    
+    .pt-signup{
+        background:url('../img/BackgroundImg/Black-Court-Background.jpg') no-repeat center bottom fixed;
+            -webkit-background-size: 120%;
+            -moz-background-size: 120%;
+            background-size:120%;
+            -o-background-size: 120%;
+        
+        ul{
+            padding-left: 20px;
+
+                li{
+                    padding:0 10px 20px;
+                    color: #f0f0f0;
+                    font-size: 24px;
+
+                    @media screen and(min-width:500px){
+
+                    }
+
+                    @media screen and(min-width:768px){
+
+                    }
+                    @media screen and(min-width:920px){
+
+                    }
+
+
+                }
+
+            }
+        
+        img{
+            border-radius: 100%;
+            width: 300px;
+            padding: 10px;
+        }
+    }
+}
+
+//Calendar Page
+.calendar-page{
+    p{
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+}
+
