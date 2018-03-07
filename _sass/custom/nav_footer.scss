@@ -1,0 +1,67 @@
+
+.navbar-brand{
+    
+    
+    a{
+        color: #ffffff;
+           
+        .FB-IG{
+            width: 30px;
+            height: 30px;
+            background: #ff0000;
+            margin: 10px;
+            border-radius: 100%;
+
+        }
+        
+        &:hover{
+            .FB-IG{
+                background: rgba(255,0,0,.7);
+            }
+        }
+    }
+    
+}
+
+
+
+
+footer{
+    background: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px #ffffff solid;
+    
+    
+    
+    .footer{
+        p{
+            color: #ffffff;
+            font-size: 16px;
+           
+        }
+        
+        a,
+        a:focus{
+            color: #ffffff;
+            text-decoration: none;
+            outline: none;
+            
+            &:hover{
+                color: rgba(255,255,255,.7);
+            }
+        }
+        
+        div>div{
+            margin-top: 5px;
+        }
+        
+        .follow-us{
+           padding-left: 50px;
+        }
+        
+        
+    }
+
+  
+}

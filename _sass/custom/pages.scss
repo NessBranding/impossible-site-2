@@ -1,211 +1,14 @@
-
-//Look for notes throughout this stylesheet.  Styles are organized by the pages & sections they corrispond to on the site//
-
-//---------------------------------------------------------------------------------------------------------------------------//
-
-
-//GLobal styles for the entier site//
-
-.row{
-    overflow: hidden;
-}
-
-a{
-    color: #ff0000;
-    &:hover{
-        color: #ff0000;
-        text-decoration: none;
-    }
-    
-    &:focus{
-        color: none;
-    }
-}
-
-.btn{
-    white-space: normal; 
-    text-transform: uppercase;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 400;
-    letter-spacing: 3px;
-    
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-transform: uppercase;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 700;
-    letter-spacing: 3px;
-    color: #ffffff;
-}
-
-img{
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-}
-
-
-footer{
-    background: #000000;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-top: 1px #ffffff solid;
-    
-    
-    
-    .footer{
-        p{
-            color: #ffffff;
-            font-size: 16px;
-           
-        }
-        
-        a,
-        a:focus{
-            color: #ffffff;
-            text-decoration: none;
-            outline: none;
-            
-            &:hover{
-                color: rgba(255,255,255,.7);
-            }
-        }
-        
-        div>div{
-            margin-top: 5px;
-        }
-        
-        .follow-us{
-           padding-left: 50px;
-        }
-        
-        
-    }
-
-  
-}
-
-//head section of personal training page, training page, and training center page.
-.head{
-    
-    a{
-        border-radius: 20px;
-        border-width: 5px;
-    }
-              
-        background:url('../img/BackgroundImg/Black-Court-Background.jpg') no-repeat center top fixed;
-            -webkit-background-size: 120%;
-            -moz-background-size: 120%;
-            background-size:120%;
-            -o-background-size: 120%; 
-
-        
-        @media screen and(min-width: 768px){
-        
-            -webkit-background-size: 140%;
-            -moz-background-size: 140%;
-            background-size: 140%;
-            -o-background-size: 140%;   
-        }
-        
-        @media screen and (min-width: 992px){
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            background-size: cover;
-            -o-background-size: cover;   
-        }
-    
-            padding-top: 100px;
-            padding-bottom: 50px;
-
-            @media screen and(min-width:576px){
-                padding-top: 200px;
-                padding-bottom: 150px;
-            }
-            @media screen and(min-width:768px){
-                    padding-bottom: 200px;
-                }
-            @media screen and(min-width:992px){
-
-            }
-        
-        h1{
-            
-            font-size: 40px;
-            font-weight: 700;
-            color: #ffffff;
-           
-            @media screen and (min-width: 768px){
-                font-size: 70px;
-            }
-        }
-            p{
-                text-transform: uppercase;
-                font-family: 'Orbitron', sans-serif;
-                font-weight: 400;
-                letter-spacing: 3px;
-                color: #ffffff;
-                 @media screen and(min-width:768px){
-
-                    font-size:24px;
-                }
-            }
-        
-        }
-
-.navbar-brand{
-    
-    
-    a{
-        color: #ffffff;
-           
-        .FB-IG{
-            width: 30px;
-            height: 30px;
-            background: #ff0000;
-            margin: 10px;
-            border-radius: 100%;
-
-        }
-        
-        &:hover{
-            .FB-IG{
-                background: rgba(255,0,0,.7);
-            }
-        }
-    }
-    
-}
-
-
-/////////////////////////
-//End globall CSS
-////////////////////////
+//Custom styling for each page
 
 //HOME PAGE
 .home-page{
-    
-        
-        p{
-                font-family: 'Orbitron', sans-serif;
-                font-weight: 400;
-                letter-spacing: 3px;
-                color: #ffffff;
-            }
     
         a{
             border-radius: 100px;
         }
     
     .head-logo-section{
-        background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('../img/BackgroundImg/AdobeStock_60249457_Preview.jpeg') no-repeat center top fixed;
+        background:$lg-1,url('../img/BackgroundImg/AdobeStock_60249457_Preview.jpeg') no-repeat center top fixed;
         -webkit-background-size: 150%;
         -moz-background-size: 150%;
         background-size:150%;
@@ -220,7 +23,7 @@ footer{
         }
         
          @media screen and(min-width: 768px){
-        background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('../img/BackgroundImg/AdobeStock_60249457_Preview.jpeg') no-repeat center center fixed;
+        	background:$lg-1,url('../img/BackgroundImg/AdobeStock_60249457_Preview.jpeg') no-repeat center center fixed;
             -webkit-background-size: 100%;
             -moz-background-size: 100%;
             background-size: cover;
@@ -257,13 +60,6 @@ footer{
      
 
         
-          a{
-                  
-            @media screen and (min-width:768px){
-                font-size: 16px;
-                letter-spacing: 20px;
-                }
-            }
 
     }
     
@@ -280,10 +76,10 @@ footer{
         
        
         
-        background: #990000;
+        background: $p2;
        
           @media screen and(min-width: 768px){
-                background:linear-gradient(rgba(72,72,72,.9),rgba(72,72,72,.9)),url('../img/BackgroundImg/AdobeStock_66155005.jpeg') no-repeat center top fixed;
+                background:$lg-2,url('../img/BackgroundImg/AdobeStock_66155005.jpeg') no-repeat center top fixed;
                 -webkit-background-size: 120%;
                 -moz-background-size: 120%;
                 background-size: 120%;
@@ -316,7 +112,7 @@ footer{
     .quote-1,
     .quote-2{
         
-        background: #151515;
+        background: $bg-1;
         
         p{
             font-size: 24px;
@@ -327,10 +123,10 @@ footer{
  
     
     .camps-events-snippet{
-        background: #e4e4e4;
+        background: $bg-3;
         
           @media screen and(min-width: 768px){
-                background:linear-gradient(rgba(228,228,228,.9),rgba(228,228,228,.9)),url('../img/BackgroundImg/training background.jpeg') no-repeat center center fixed;
+                background:$lg-3,url('../img/BackgroundImg/training background.jpeg') no-repeat center center fixed;
                 -webkit-background-size: 140%;
                 -moz-background-size: 140%;
                 background-size: 140%;
@@ -339,23 +135,23 @@ footer{
         
         h2,
         p{
-            color: #000000;
+            color: $b;
         }
     }
     
     .about-snippet{
-        background: #e4e4e4;
+        background: $bg-3;
         p,
         h2,
         h4{
-            color: #000000;
+            color: $b;
             @media screen and(min-width:768px){
-                color: #ffffff;
+                color: $w;
             }
         }
         
           @media screen and(min-width: 768px){
-                background:linear-gradient(rgba(63,63,63,.8),rgba(63,63,63,.8)),url('../img/BackgroundImg/gym.jpeg') no-repeat center bottom fixed;
+                background:$lg-4,url('../img/BackgroundImg/gym.jpeg') no-repeat center bottom fixed;
                 -webkit-background-size: 120%;
                 -moz-background-size: 120%;
                 background-size: 120%;
@@ -367,11 +163,11 @@ footer{
         }
         
         hr{
-            border: 2px solid #000000;
+            border: $bd-1b;
             max-width: 300px;
             
             @media screen and(min-width:768px){
-                border: 2px solid #ffffff;
+                border: $bd-1;
                 
             }
             
@@ -390,7 +186,7 @@ footer{
 .about-page{
     
     .head{
-        background:linear-gradient(rgba(63,63,63,.8),rgba(63,63,63,.8)),url('../img/BackgroundImg/gym.jpeg') no-repeat center top fixed;
+        background:$lg-4,url('../img/BackgroundImg/gym.jpeg') no-repeat center top fixed;
         -webkit-background-size: 100%;
         -moz-background-size: 100%;
         background-size:120%;
@@ -404,7 +200,7 @@ footer{
         }
         
         @media screen and(min-width:768px){
-             background:linear-gradient(rgba(63,63,63,.8),rgba(63,63,63,.8)),url('../img/BackgroundImg/gym.jpeg') no-repeat center bottom fixed;
+             background:$lg-4,url('../img/BackgroundImg/gym.jpeg') no-repeat center bottom fixed;
             -webkit-background-size: 140%;
             -moz-background-size: 140%;
             background-size:140%;
@@ -427,11 +223,11 @@ footer{
         h5,
         h6,
         p{
-            color: #ffffff;
+            color: $w;
         }
         
         hr{
-            border-color: #ffffff;
+            border-color: $w;
         }
     
     .who-we-are{
@@ -473,10 +269,10 @@ footer{
 .events-page{
 
     .events-description{
-        background-color:  #F5F5F5;  
+        background: $bg-3;  
         
-        h1{
-            color: #000000;
+        h1,p{
+            color: $b;
         }
         
         p{
@@ -493,34 +289,26 @@ footer{
         }
         
         
-        .camp-1{
-            background: #D3D3D3;
+        .camp{
+            background: $bg-4;
             
             h2,
             h5,
             p{
-                color: #000000;
+                color: $b;
             }
         }
         
-        .camp-2{
-            background-color: #e5e6e7;
-            
-            h2,
-            h5,
-            p{
-                color: #000000;
-            }
-        }
+  
         
     }
     
     .host-camp{
-        background-color: #3b3e42;
+        background-color: $bg-1;
         
         h2,
         p{
-            color: #ffffff;
+            color: $w;
         }
         
     }
@@ -732,3 +520,4 @@ footer{
 
 }
 
+//End Page styling

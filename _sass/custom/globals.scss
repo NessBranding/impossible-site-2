@@ -1,0 +1,106 @@
+
+//GLobal styles for the entier site//
+
+.row{
+    overflow: hidden;
+}
+
+a{
+    color: $p1;
+    &:hover{
+        color: $p2;
+        text-decoration: none;
+    }
+    
+    &:focus{
+        color: $p2;
+    }
+}
+
+.btn{
+    white-space: normal; 
+    text-transform: uppercase;
+	text-align: center;
+    font-family: $f2;
+    font-weight: 400;
+    
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+
+//head section of personal training page, training page, and training center page.
+.head{
+    
+    a{
+        border-radius: 20px;
+        border-width: 5px;
+    }
+              
+        background:url('../img/BackgroundImg/Black-Court-Background.jpg') no-repeat center top fixed;
+            -webkit-background-size:120%;
+            -moz-background-size:120%;
+            background-size:120%;
+            -o-background-size:120%; 
+
+        
+        @media screen and(min-width: 768px){
+        
+            -webkit-background-size: 140%;
+            -moz-background-size: 140%;
+            background-size: 140%;
+            -o-background-size: 140%;   
+        }
+        
+        @media screen and (min-width: 992px){
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;   
+        }
+    
+            padding-top: 100px;
+            padding-bottom: 50px;
+
+            @media screen and(min-width:576px){
+                padding-top: 200px;
+                padding-bottom: 150px;
+            }
+            @media screen and(min-width:768px){
+                    padding-bottom: 200px;
+                }
+            @media screen and(min-width:992px){
+
+            }
+        
+        h1{
+            
+            font-size: 40px;
+            font-weight: 700;
+            color: $w;
+           
+            @media screen and (min-width: 768px){
+                font-size: 70px;
+            }
+        }
+            p{
+                text-transform: uppercase;
+                font-family: $f1;
+                font-weight: 500;
+                letter-spacing: 3px;
+                color: $w;
+                 @media screen and(min-width:768px){
+
+                    font-size:24px;
+                }
+            }
+        
+        }
+
+//End globall CSS

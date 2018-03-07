@@ -1,0 +1,58 @@
+//All colors for the website
+
+//Primary
+$p1: 	#ff0000;
+$p2:	#990000;
+
+//White & black
+$w:		#f8f8f8;
+$b:		#191919;
+
+//borders
+$bd-1:	1px solid $w;
+$bd-5:	5px solid $w;
+$bd-1b:	1px solid $b;
+$bd-5r:	5px solid #c20000;
+
+//Backgrounds
+$bg-1:	#171d22;
+$bg-2:	#939598;
+$bg-3:	#e4e4e4;
+$bg-4:	#d3d3d3;
+$bg-5:	#939598;
+$bg-6:	#c20000;
+
+//<hr> colors
+$hrb:	1px solid $b;
+$hrw:	1px solid $w;
+
+//backgroud overlays
+$ov-1:	rgba(60,0,0,.50);
+$ov-2: 	rgba(255,255,255,.9);
+
+//Background image Linear Gradient overlays
+$lg-1:	linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+$lg-2:	linear-gradient(rgba(72,72,72,.9),rgba(72,72,72,.9));
+$lg-3:	linear-gradient(rgba(228,228,228,.9),rgba(228,228,228,.9));
+$lg-4:	linear-gradient(rgba(63,63,63,.8),rgba(63,63,63,.8));
+
+
+// Colors for all links, headers, & Paragraphs
+a{
+    color: $p1;
+        
+    &:hover{
+            color: $p2;
+            text-decoration: none;
+        }
+    &:focus{
+        color: $p1;
+    }
+} 
+
+h1,h2,h3,h4,h5,h6,p{
+	color: $w;
+}
+
+
+//End Colors
