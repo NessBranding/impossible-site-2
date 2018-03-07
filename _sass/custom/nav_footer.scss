@@ -1,3 +1,60 @@
+.navbar,
+.dropdown-menu{
+	background: $b;
+	
+	.dropdown-divider{
+		max-width: 100px;
+		margin: auto;
+		border-color: $p2;
+	}
+	
+	.dropdown-item{
+		background: $b;
+		
+		&:hover{
+			background: $b;
+		}
+	}
+	
+	a{
+    color: $p1;
+        
+    &:hover{
+            color: $p2;
+            text-decoration: none;
+        }
+    &:focus{
+        color: $p1;
+		}
+	}
+   
+}
+
+
+footer{
+    
+ 
+    background: $b;
+    border-top: 1px $w solid;
+    
+    
+    .footer{
+   
+        a,
+        .fa-calendar-alt,
+        .fa-facebook-square,
+        .fa-instagram,
+        .fa-map-marker-alt,
+        .fa-envelope,
+        .fa-phone-square{
+            color: $w;
+        }
+    }
+    
+  
+    
+}
+
 
 .navbar-brand{
     

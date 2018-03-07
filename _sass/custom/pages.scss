@@ -76,7 +76,7 @@
         
        
         
-        background: $p2;
+        background: $bg-7;
        
           @media screen and(min-width: 768px){
                 background:$lg-2,url('../img/BackgroundImg/AdobeStock_66155005.jpeg') no-repeat center top fixed;
@@ -324,7 +324,7 @@
     h5,
     h6,
     p{
-        color: #f0f0f0;
+        color: $w;
     }
     
     img{
@@ -342,7 +342,7 @@
         a{
             font-size: 14px;
             border-radius: 20px;
-            border: 5px solid #ffffff;
+            border: $bd-5;
             @media screen and (min-width:768px){
                 
                 }
@@ -357,11 +357,11 @@
         h5,
         h6,
         p{
-            color: #000000;
+            color: $b;
         }
         
         hr{
-            border:1px solid #000000;
+            border:$bd-1b;
             max-width: 200px;
         }
     }
@@ -372,7 +372,7 @@
             ul{
                 padding-left: 20px;
                 li{
-                    color: #f0f0f0;
+                    color: $w;
                     font-size: 26px;
                     padding: 0 0 20px 10px;
                 }
@@ -380,16 +380,16 @@
             }
         
         hr{
-            border: 2px solid #ffffff;
+            border: $bd-1;
             max-width: 300px;
         }
 
         .complete-player-membership{
             
-            background: #000000;
+            background: $bg-1;
             
             @media screen and(min-width:768px){
-                 background:linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('../img/BackgroundImg/Program%203.jpeg') no-repeat center top fixed;
+                 background:$lg-4, url('../img/BackgroundImg/Program%203.jpeg') no-repeat center top fixed;
                 -webkit-background-size: 120%;
                 -moz-background-size: 120%;
                 background-size:120%;
@@ -403,10 +403,10 @@
         
         .kids-program{
             
-            background: rgba(40,40,40,1);
+            background: $bg-1;
             
             @media screen and(min-width:768px){
-                background:linear-gradient(rgba(40,40,40,.9), rgba(40,40,40,.9)), url('../img/BackgroundImg/Program%201.jpeg') no-repeat center top fixed;
+                background:$lg-4, url('../img/BackgroundImg/Program%201.jpeg') no-repeat center top fixed;
                 -webkit-background-size: 120%;
                 -moz-background-size: 120%;
                 background-size:120%;
@@ -424,12 +424,12 @@
         }
         
         .passes{
-            background: rgba(80,80,80,1);
+            background: $bg-1;
             
             @media screen and(min-width: 768px){
                 
                           
-            background:linear-gradient(rgba(80,80,80,.8), rgba(80,80,80,.8)), url('../img/BackgroundImg/Program%202.jpeg') no-repeat center top fixed;
+            background:$lg-2, url('../img/BackgroundImg/Program%202.jpeg') no-repeat center top fixed;
             -webkit-background-size: 120%;
             -moz-background-size: 120%;
             background-size:120%;
@@ -445,23 +445,15 @@
 }
 
 .personal-training-page{
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p{
-        color: #f0f0f0;
-    } 
+   
     
     hr{
-        border: 2px solid #ffffff;
+        border: $hrw;
         max-width: 300px;
     }
     
     .pt-info{
-        background:linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('../img/BackgroundImg/Program%204.jpeg') no-repeat center top fixed;
+        background:$lg-4, url('../img/BackgroundImg/Program%204.jpeg') no-repeat center top fixed;
             -webkit-background-size: 120%;
             -moz-background-size: 120%;
             background-size:120%;
@@ -480,26 +472,11 @@
             -o-background-size: 120%;
         
         ul{
-            padding-left: 20px;
+            	color: $w;
+				display: inline-block;
+				text-align: left;
+				font-size: 24px;
 
-                li{
-                    padding:0 10px 20px;
-                    color: #f0f0f0;
-                    font-size: 24px;
-
-                    @media screen and(min-width:500px){
-
-                    }
-
-                    @media screen and(min-width:768px){
-
-                    }
-                    @media screen and(min-width:920px){
-
-                    }
-
-
-                }
 
             }
         

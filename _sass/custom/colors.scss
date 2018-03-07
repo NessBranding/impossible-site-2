@@ -15,26 +15,24 @@ $bd-1b:	1px solid $b;
 $bd-5r:	5px solid #c20000;
 
 //Backgrounds
-$bg-1:	#171d22;
-$bg-2:	#939598;
-$bg-3:	#e4e4e4;
-$bg-4:	#d3d3d3;
-$bg-5:	#939598;
-$bg-6:	#c20000;
+$bg-1:	$b;
+$bg-2:	#484848;
+$bg-3:	#A9A9A9;
+$bg-4:	#D3D3D3;
+$bg-5:	#E8E8E8;
+$bg-6:	#F5F5F5;
+$bg-7:	$p2;
 
 //<hr> colors
 $hrb:	1px solid $b;
 $hrw:	1px solid $w;
-
-//backgroud overlays
-$ov-1:	rgba(60,0,0,.50);
-$ov-2: 	rgba(255,255,255,.9);
 
 //Background image Linear Gradient overlays
 $lg-1:	linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
 $lg-2:	linear-gradient(rgba(72,72,72,.9),rgba(72,72,72,.9));
 $lg-3:	linear-gradient(rgba(228,228,228,.9),rgba(228,228,228,.9));
 $lg-4:	linear-gradient(rgba(63,63,63,.8),rgba(63,63,63,.8));
+
 
 
 // Colors for all links, headers, & Paragraphs
