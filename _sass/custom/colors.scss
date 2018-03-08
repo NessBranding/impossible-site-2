@@ -1,5 +1,7 @@
 //All colors for the website
 
+//These styles are desiged to add to or overide Bootstraps design files
+
 //Primary
 $p1: 	#ff0000;
 $p2:	#990000;
@@ -15,13 +17,13 @@ $bd-1b:	1px solid $b;
 $bd-5r:	5px solid #c20000;
 
 //Backgrounds
-$bg-1:	$b;
-$bg-2:	#484848;
-$bg-3:	#A9A9A9;
-$bg-4:	#D3D3D3;
+$bg-1:	#191919;
+$bg-2:	#D3D3D3;
+$bg-3:	#DCDCDC;
+$bg-4:	#E0E0E0;
 $bg-5:	#E8E8E8;
-$bg-6:	#F5F5F5;
-$bg-7:	$p2;
+$bg-6:	#f8f8f8; //$lg-7
+$bg-7:	#990000;
 
 //<hr> colors
 $hrb:	1px solid $b;
@@ -29,9 +31,13 @@ $hrw:	1px solid $w;
 
 //Background image Linear Gradient overlays
 $lg-1:	linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
-$lg-2:	linear-gradient(rgba(72,72,72,.9),rgba(72,72,72,.9));
-$lg-3:	linear-gradient(rgba(228,228,228,.9),rgba(228,228,228,.9));
-$lg-4:	linear-gradient(rgba(63,63,63,.8),rgba(63,63,63,.8));
+$lg-2:	linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75));
+$lg-3:	linear-gradient(rgba(211,211,211,.8),rgba(211,211,211,.8));
+$lg-4:	linear-gradient(rgba(220,220,220,.8),rgba(220,220,220,.8));
+$lg-5:	linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75));
+$lg-6:	linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75));
+$lg-7:	linear-gradient(rgba(248,248,248,.9),rgba(248,248,248,.9));
+
 
 
 
@@ -43,9 +49,7 @@ a{
             color: $p2;
             text-decoration: none;
         }
-    &:focus{
-        color: $p1;
-    }
+ 
 } 
 
 h1,h2,h3,h4,h5,h6,p{

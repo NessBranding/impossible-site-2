@@ -5,17 +5,7 @@
     overflow: hidden;
 }
 
-a{
-    color: $p1;
-    &:hover{
-        color: $p2;
-        text-decoration: none;
-    }
-    
-    &:focus{
-        color: $p2;
-    }
-}
+
 
 .btn{
     white-space: normal; 
@@ -41,28 +31,25 @@ img{
     a{
         border-radius: 20px;
         border-width: 5px;
+		font-family: $f1;
+		font-weight: 400;
+		letter-spacing: 2px;
     }
               
-        background:url('../img/BackgroundImg/Black-Court-Background.jpg') no-repeat center top fixed;
+        background:url('../img/BackgroundImg/Black-Court-Background.jpg') center top fixed;
             -webkit-background-size:120%;
             -moz-background-size:120%;
-            background-size:120%;
+            background-size:100%;
             -o-background-size:120%; 
 
         
         @media screen and(min-width: 768px){
         
-            -webkit-background-size: 140%;
-            -moz-background-size: 140%;
-            background-size: 140%;
-            -o-background-size: 140%;   
+           
         }
         
         @media screen and (min-width: 992px){
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            background-size: cover;
-            -o-background-size: cover;   
+          
         }
     
             padding-top: 100px;
@@ -82,7 +69,6 @@ img{
         h1{
             
             font-size: 40px;
-            font-weight: 700;
             color: $w;
            
             @media screen and (min-width: 768px){
@@ -92,7 +78,7 @@ img{
             p{
                 text-transform: uppercase;
                 font-family: $f1;
-                font-weight: 500;
+                font-weight: 400;
                 letter-spacing: 3px;
                 color: $w;
                  @media screen and(min-width:768px){

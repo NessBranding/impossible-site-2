@@ -151,7 +151,7 @@
         }
         
           @media screen and(min-width: 768px){
-                background:$lg-4,url('../img/BackgroundImg/gym.jpeg') no-repeat center bottom fixed;
+                background:$lg-2,url('../img/BackgroundImg/gym.jpeg') no-repeat center bottom fixed;
                 -webkit-background-size: 120%;
                 -moz-background-size: 120%;
                 background-size: 120%;
@@ -184,9 +184,8 @@
 
 //About Page
 .about-page{
-    
-    .head{
-        background:$lg-4,url('../img/BackgroundImg/gym.jpeg') no-repeat center top fixed;
+	
+   background:$lg-2,url('../img/BackgroundImg/gym.jpeg') no-repeat center top fixed;
         -webkit-background-size: 100%;
         -moz-background-size: 100%;
         background-size:120%;
@@ -200,7 +199,7 @@
         }
         
         @media screen and(min-width:768px){
-             background:$lg-4,url('../img/BackgroundImg/gym.jpeg') no-repeat center bottom fixed;
+             background:$lg-2,url('../img/BackgroundImg/gym.jpeg') no-repeat center bottom fixed;
             -webkit-background-size: 140%;
             -moz-background-size: 140%;
             background-size:140%;
@@ -214,32 +213,34 @@
             background-size:100%;
             -o-background-size: 100%; 
         }
+	
+    .head{
+       background: none;
     }
 
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        p{
-            color: $w;
-        }
-        
         hr{
-            border-color: $w;
+            border: $hrb;
         }
+
     
     .who-we-are{
-
+		
+		background: $bg-1;
+		
         img{
-            width: 200px;
+            width: 150px;
             display: inline-block;
         }
     }
     
     .location{
-
+		
+		background: $bg-2;
+		
+		h1,h2,h3,h4,h5,h6,p{
+			color: $b;
+		}
+		
         img{
             border-radius: 10px;
             width: 500px;
@@ -265,11 +266,155 @@
     }
 }
 
+//Training Center
+.training-membership-page{
+    
+    img{
+        width: 200px;
+    }
+    
+    .head{
+        padding-bottom: 0px;
+        
+        @media screen and(min-width:576px){
+            padding-top: 200px;
+            padding-bottom: 100px;
+        }
+        
+        a{
+            font-size: 14px;
+            border-radius: 20px;
+            border: $bd-5;
+            @media screen and (min-width:768px){
+                
+                }
+        }   
+    }
+    
+    .how-it-works{
+		background: $bg-6;
+		
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p{
+            color: $b;
+        }
+        
+        hr{
+            border:$bd-1b;
+            max-width: 200px;
+        }
+    }
+    .membership-options{
+  
+        
+        
+            ul{
+                padding-left: 20px;
+                li{
+                    color: $w;
+                    font-size: 26px;
+                    padding: 0 0 20px 10px;
+                }
+
+            }
+        
+        hr{
+            border: $bd-1;
+            max-width: 300px;
+        }
+		
+		.complete-player-membership,
+		.kids-program,
+		.passes{
+			
+			h1,h2,h3,h4,h5,h6,p,li{
+				color: $b;
+				
+				@media screen and(min-width: 768px){
+					color: $w;
+				}
+			}
+			
+			hr{
+				border: $hrb;
+				
+				@media screen and (min-width:768px){
+					border: $hrw;
+				}
+			}
+			
+		}
+		
+        .complete-player-membership{
+            
+            background: $bg-2;
+            
+            @media screen and(min-width:768px){
+                 background:$lg-5, url('../img/BackgroundImg/Program%203.jpeg') no-repeat center top fixed;
+                -webkit-background-size: 120%;
+                -moz-background-size: 120%;
+                background-size:120%;
+                -o-background-size: 120%; 
+            }
+            
+
+        
+        } 
+    
+        
+        .kids-program{
+            
+            background: $bg-3;
+            
+            @media screen and(min-width:768px){
+                background:$lg-5, url('../img/BackgroundImg/Program%201.jpeg') no-repeat center top fixed;
+                -webkit-background-size: 120%;
+                -moz-background-size: 120%;
+                background-size:120%;
+                -o-background-size: 120%;
+            }
+            
+            
+            
+            img{
+                width: 150px;
+                margin-bottom: 20px; 
+            }
+        
+        
+        }
+        
+        .passes{
+            background: $bg-4;
+            
+            @media screen and(min-width: 768px){
+                
+                          
+            background:$lg-5, url('../img/BackgroundImg/Program%202.jpeg') no-repeat center top fixed;
+            -webkit-background-size: 120%;
+            -moz-background-size: 120%;
+            background-size:120%;
+            -o-background-size: 120%;  
+            }
+
+        } 
+        
+    
+    }
+    
+
+}
+
 //Events Page
 .events-page{
 
     .events-description{
-        background: $bg-3;  
+        background: $bg-2;  
         
         h1,p{
             color: $b;
@@ -314,136 +459,6 @@
     }
 }
 
-//Training Center
-.training-membership-page{
-    
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p{
-        color: $w;
-    }
-    
-    img{
-        width: 200px;
-    }
-    
-    .head{
-        padding-bottom: 0px;
-        
-        @media screen and(min-width:576px){
-            padding-top: 200px;
-            padding-bottom: 100px;
-        }
-        
-        a{
-            font-size: 14px;
-            border-radius: 20px;
-            border: $bd-5;
-            @media screen and (min-width:768px){
-                
-                }
-        }   
-    }
-    
-    .how-it-works{
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        p{
-            color: $b;
-        }
-        
-        hr{
-            border:$bd-1b;
-            max-width: 200px;
-        }
-    }
-    .membership-options{
-  
-        
-        
-            ul{
-                padding-left: 20px;
-                li{
-                    color: $w;
-                    font-size: 26px;
-                    padding: 0 0 20px 10px;
-                }
-
-            }
-        
-        hr{
-            border: $bd-1;
-            max-width: 300px;
-        }
-
-        .complete-player-membership{
-            
-            background: $bg-1;
-            
-            @media screen and(min-width:768px){
-                 background:$lg-4, url('../img/BackgroundImg/Program%203.jpeg') no-repeat center top fixed;
-                -webkit-background-size: 120%;
-                -moz-background-size: 120%;
-                background-size:120%;
-                -o-background-size: 120%; 
-            }
-            
-
-        
-        } 
-    
-        
-        .kids-program{
-            
-            background: $bg-1;
-            
-            @media screen and(min-width:768px){
-                background:$lg-4, url('../img/BackgroundImg/Program%201.jpeg') no-repeat center top fixed;
-                -webkit-background-size: 120%;
-                -moz-background-size: 120%;
-                background-size:120%;
-                -o-background-size: 120%;
-            }
-            
-            
-            
-            img{
-                width: 150px;
-                margin-bottom: 20px; 
-            }
-        
-        
-        }
-        
-        .passes{
-            background: $bg-1;
-            
-            @media screen and(min-width: 768px){
-                
-                          
-            background:$lg-2, url('../img/BackgroundImg/Program%202.jpeg') no-repeat center top fixed;
-            -webkit-background-size: 120%;
-            -moz-background-size: 120%;
-            background-size:120%;
-            -o-background-size: 120%;  
-            }
-
-        } 
-        
-    
-    }
-    
-
-}
-
 .personal-training-page{
    
     
@@ -453,11 +468,18 @@
     }
     
     .pt-info{
-        background:$lg-4, url('../img/BackgroundImg/Program%204.jpeg') no-repeat center top fixed;
+		
+		background: $bg-1;
+		
+		@media screen and(min-width: 768px){
+			background:$lg-2, url('../img/BackgroundImg/Program%204.jpeg') no-repeat center top fixed;
             -webkit-background-size: 120%;
             -moz-background-size: 120%;
             background-size:120%;
             -o-background-size: 120%;
+			
+		}
+        
         
         img{
             width: 300px;
@@ -465,11 +487,11 @@
     }
     
     .pt-signup{
-        background:url('../img/BackgroundImg/Black-Court-Background.jpg') no-repeat center bottom fixed;
-            -webkit-background-size: 120%;
-            -moz-background-size: 120%;
-            background-size:120%;
-            -o-background-size: 120%;
+        background:url('../img/BackgroundImg/Black-Court-Background.jpg') center bottom fixed;
+            -webkit-background-size: 100%;
+            -moz-background-size: 100%;
+            background-size:100%;
+            -o-background-size: 100%;
         
         ul{
             	color: $w;
@@ -491,7 +513,7 @@
 //Calendar Page
 .calendar-page{
     p{
-        color: #ffffff;
+      
         font-size: 20px;
     }
 

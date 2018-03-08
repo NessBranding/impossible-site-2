@@ -27,7 +27,13 @@
         color: $p1;
 		}
 	}
-   
+}
+
+.navbar{
+	.navbar-toggler{
+		color: $p1;
+		border-color: $p1;
+	}
 }
 
 
